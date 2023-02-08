@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://picsum.photos/200/300/?blur");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#removeBtn {
+    margin-left: 2%
+}
+
+.commonButtonCss {
+   
+    border: 1px dashed lightcoral;
+}
+
+.commonButtonCss:hover {
+    background-color: coral;
+}
+
+table,
+td,
+tr {
+    border: 1px dashed rgb(32, 179, 18);
+    text-align: center;
+    border-collapse: collapse;
+    color: antiquewhite;
+
+
+}
+
+tr:hover {
+    background-color: coral;
+}
+.bg-color{
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+
+}
+
+.head-text{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.text{
+    color: rgb(211, 161, 203);
+    text-shadow: 1px 1px 2px #000000;
+}
