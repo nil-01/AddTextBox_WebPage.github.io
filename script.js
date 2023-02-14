@@ -2,6 +2,8 @@
 var count=1;
 var count_2=1;
 
+var dom = document.body.innerHTML;
+
 function getLength(){
     return document.getElementsByClassName('col').length;
 }
@@ -85,6 +87,8 @@ function removeRow() {
     }
 }
 
-
+function refresh(){
+    document.body.innerHTML = dom;
+}
 
 
